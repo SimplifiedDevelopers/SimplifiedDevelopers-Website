@@ -8,14 +8,14 @@ export function Hero() {
       style={{
         padding: '5rem 0 5.5rem',
         background:
-          'radial-gradient(900px 420px at 85% -10%, rgba(43,43,214,0.10), transparent 60%), radial-gradient(600px 300px at 0% 100%, rgba(232,163,61,0.12), transparent 60%)',
+          'radial-gradient(900px 420px at 85% -10%, rgba(71,119,228,0.14), transparent 60%), radial-gradient(600px 300px at 0% 100%, rgba(219,165,73,0.16), transparent 60%)',
       }}
     >
       <div className="container hero-grid" style={{ display: 'grid', gap: '3.5rem', alignItems: 'center' }}>
         <div>
           <span className="eyebrow">Software that works for you</span>
           <h1 style={{ fontSize: 'clamp(2.4rem, 5vw, 3.6rem)', fontWeight: 800, marginBottom: '1.25rem' }}>
-            Software, <span style={{ color: 'var(--brand)' }}>simplified.</span>
+            Software, <span className="brand-gradient-text">simplified.</span>
           </h1>
           <p style={{ fontSize: '1.15rem', color: 'var(--muted)', lineHeight: 1.65, marginBottom: '2rem', maxWidth: '540px' }}>
             We build clean, reliable tools that make your business run smoother — without the complexity.
@@ -23,7 +23,7 @@ export function Hero() {
             builds when off-the-shelf doesn't fit.
           </p>
           <div style={{ display: 'flex', gap: '0.875rem', flexWrap: 'wrap' }}>
-            <a href="#contact" className="btn btn-primary" style={{ padding: '0.9rem 1.75rem', fontSize: '1rem' }}>
+            <a href="#contact" className="btn btn-accent" style={{ padding: '0.9rem 1.75rem', fontSize: '1rem' }}>
               Get started
             </a>
             <a href="#products" className="btn btn-secondary" style={{ padding: '0.9rem 1.75rem', fontSize: '1rem' }}>
@@ -43,7 +43,7 @@ export function Hero() {
             className="card"
             style={{
               overflow: 'hidden',
-              boxShadow: '0 30px 60px -28px rgba(0,0,124,0.45)',
+              boxShadow: '0 30px 60px -28px rgba(42,66,171,0.5)',
               transform: 'rotate(-1.5deg)',
             }}
           >

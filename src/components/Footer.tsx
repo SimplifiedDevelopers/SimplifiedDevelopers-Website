@@ -48,7 +48,7 @@ export function Footer() {
         <p style={{ fontSize: '13px', color: 'var(--muted-light)' }}>
           &copy; {new Date().getFullYear()} Simplified Developers. All rights reserved.
         </p>
-        <p style={{ fontSize: '13px', color: 'var(--accent-dark)', fontWeight: 600, letterSpacing: '0.12em', textTransform: 'uppercase' }}>
+        <p style={{ fontSize: '13px', color: 'var(--accent)', fontWeight: 700, letterSpacing: '0.12em', textTransform: 'uppercase' }}>
           Software Simplified
         </p>
       </div>

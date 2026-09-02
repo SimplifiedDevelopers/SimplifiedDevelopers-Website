@@ -22,6 +22,7 @@ export function Header() {
         borderBottom: '1px solid var(--border)',
       }}
     >
+      <div className="accent-bar" />
       <div
         className="container"
         style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', height: '72px' }}

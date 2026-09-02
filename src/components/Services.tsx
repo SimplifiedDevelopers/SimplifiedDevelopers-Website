@@ -52,11 +52,11 @@ export function Services() {
           {SERVICES.map((s) => (
             <div key={s.title} className="card card-hover" style={{ padding: '1.75rem' }}>
               <div
+                className="brand-tile"
                 style={{
                   width: '48px',
                   height: '48px',
                   borderRadius: '12px',
-                  background: 'linear-gradient(135deg, var(--brand-light), var(--brand))',
                   color: '#fff',
                   display: 'flex',
                   alignItems: 'center',

@@ -18,7 +18,7 @@ export function About() {
     <section
       id="about"
       className="section"
-      style={{ background: 'linear-gradient(180deg, var(--navy-surface) 0%, #000058 100%)', color: '#fff' }}
+      style={{ background: 'linear-gradient(160deg, var(--brand-deep) 0%, var(--brand) 55%, var(--brand-light) 100%)', color: '#fff' }}
     >
       <div className="container about-grid" style={{ display: 'grid', gap: '3rem', alignItems: 'start' }}>
         <div>
@@ -54,7 +54,7 @@ export function About() {
                   height: '34px',
                   borderRadius: '9px',
                   background: 'var(--accent)',
-                  color: '#1a1200',
+                  color: '#1f1400',
                   fontWeight: 800,
                   fontSize: '14px',
                   display: 'flex',

@@ -62,7 +62,7 @@ export function Products() {
         <div className="products-grid" style={{ display: 'grid', gap: '1.5rem', marginTop: '2.75rem' }}>
           {PRODUCTS.map((p) => (
             <article key={p.name} className="card card-hover" style={{ overflow: 'hidden', display: 'flex', flexDirection: 'column' }}>
-              <div style={{ background: 'var(--navy-surface)', padding: '1.5rem 1.5rem 0', borderBottom: '1px solid var(--border)' }}>
+              <div className="brand-tile" style={{ padding: '1.5rem 1.5rem 0', borderBottom: '1px solid var(--border)' }}>
                 <div style={{ borderRadius: '10px 10px 0 0', overflow: 'hidden', boxShadow: '0 -8px 30px rgba(0,0,0,0.3)' }}>
                   <img src={p.image} alt={p.alt} style={{ aspectRatio: '16 / 9', objectFit: 'cover', objectPosition: 'top' }} />
                 </div>
