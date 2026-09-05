@@ -25,10 +25,10 @@ export function Header() {
       <div className="accent-bar" />
       <div
         className="container"
-        style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', height: '72px' }}
+        style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', height: '92px' }}
       >
         <a href="#top" aria-label="Simplified Developers home" style={{ display: 'flex', alignItems: 'center' }}>
-          <img src={logo} alt="Simplified Developers — Software Simplified" className="header-logo" style={{ height: '44px', width: 'auto' }} />
+          <img src={logo} alt="Simplified Developers — Software Simplified" className="header-logo" style={{ height: '64px', width: 'auto' }} />
         </a>
 
         <nav className="desktop-nav" style={{ display: 'flex', alignItems: 'center', gap: '1.75rem', fontSize: '14.5px', fontWeight: 500 }}>
