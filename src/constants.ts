@@ -5,7 +5,7 @@ export const SUPPORT_EMAIL = 'support@simplifieddevelopers.com';
 export const SUPPORT_PHONE_DISPLAY = '1 (877) 737-6004';
 export const SUPPORT_PHONE_HREF = 'tel:+18777376004';
 
-export const ADDRESS_LINE_1 = '6215 Georgia Ave. Suite H';
+export const ADDRESS_LINE_1 = '6215 Georgia Ave. Suite E';
 export const ADDRESS_LINE_2 = 'West Palm Beach, FL 33405';
 
 /** Existing Formspree endpoint carried over from the previous site. */
