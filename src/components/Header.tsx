@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import logo from '../assets/logo.jpg';
+import { Logo } from './Logo';
 
 const NAV = [
   { href: '#products', label: 'Products' },
@@ -27,8 +27,8 @@ export function Header() {
         className="container"
         style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', height: '92px' }}
       >
-        <a href="#top" aria-label="Simplified Developers home" style={{ display: 'flex', alignItems: 'center' }}>
-          <img src={logo} alt="Simplified Developers — Software Simplified" className="header-logo" style={{ height: '64px', width: 'auto' }} />
+        <a href="#top" aria-label="Simplified Developers home" className="header-logo" style={{ display: 'flex', alignItems: 'center' }}>
+          <Logo size={54} />
         </a>
 
         <nav className="desktop-nav" style={{ display: 'flex', alignItems: 'center', gap: '1.75rem', fontSize: '14.5px', fontWeight: 500 }}>

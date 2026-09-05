@@ -124,5 +124,5 @@ img { max-width: 100%; display: block; }
   .desktop-nav { display: none !important; }
   .mobile-menu-btn { display: inline-flex !important; }
   .tools-grid { grid-template-columns: 1fr !important; }
-  .header-logo { height: 48px !important; }
+  .header-logo { transform: scale(0.85); transform-origin: left center; }
 }

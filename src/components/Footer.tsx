@@ -1,4 +1,4 @@
-import logo from '../assets/logo.jpg';
+import { Logo } from './Logo';
 import { ADDRESS_LINE_1, ADDRESS_LINE_2, CCTV_SITE_URL, SSM_SITE_URL, SUPPORT_EMAIL, SUPPORT_PHONE_DISPLAY, SUPPORT_PHONE_HREF } from '../constants';
 
 export function Footer() {
@@ -10,7 +10,7 @@ export function Footer() {
       >
         <div style={{ maxWidth: '320px' }}>
           <a href="#top" style={{ display: 'inline-block', marginBottom: '0.9rem' }}>
-            <img src={logo} alt="Simplified Developers" style={{ height: '40px', width: 'auto' }} />
+            <Logo size={44} />
           </a>
           <p style={{ fontSize: '13.5px', color: 'var(--muted)', lineHeight: 1.6 }}>
             Practical software for security and field-service companies, built in West Palm Beach, Florida.
